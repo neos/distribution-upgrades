@@ -1,0 +1,94 @@
+{
+    "typo3/neos": {
+        "replacement": "neos/neos",
+        "version": "~3.0.0"
+    },
+    "typo3/typoscript": {
+        "replacement": "neos/fusion",
+        "version": "~3.0.0"
+    },
+    "typo3/typo3cr": {
+        "replacement": "neos/content-repository",
+        "version": "~3.0.0"
+    },
+    "typo3/media": {
+        "replacement": "neos/media",
+        "version": "~3.0.0"
+    },
+    "typo3/neos-nodetypes": {
+        "replacement": "neos/nodetypes",
+        "version": "~3.0.0"
+    },
+    "typo3/neos-kickstarter": {
+        "replacement": "neos/site-kickstarter",
+        "version": "~3.0.0"
+    },
+    "typo3/flow": {
+        "replacement": "neos/flow",
+        "version": "~4.0.0"
+    },
+    "typo3/fluid": {
+        "replacement": "neos/fluid-adaptor",
+        "version": "~4.0.0"
+    },
+    "typo3/eel": {
+        "replacement": "neos/eel",
+        "version": "~4.0.0"
+    },
+    "typo3/party": {
+        "replacement": "neos/party",
+        "version": "~4.0.0"
+    },
+    "typo3/neos-seo": {
+        "replacement": "neos/seo",
+        "version": "~2.0.0"
+    },
+    "typo3/form": {
+        "replacement": "neos/form",
+        "version": "~3.0.0"
+    },
+    "typo3/imagine": {
+        "replacement": "neos/imagine",
+        "version": "~3.0.0"
+    },
+    "typo3/twitter-bootstrap": {
+        "replacement": "neos/twitter-bootstrap",
+        "version": "~3.0.0"
+    },
+    "typo3/setup": {
+        "replacement": "neos/setup",
+        "version": "~4.0.0"
+    },
+    "typo3/kickstart": {
+        "replacement": "neos/kickstarter",
+        "version": "~4.0.0"
+    },
+    "typo3/swiftmailer": {
+        "replacement": "neos/swiftmailer",
+        "version": "~6.0.0"
+    },
+    "typo3/typo3cr-search": {
+        "replacement": "neos/content-repository-search",
+        "version": "~2.0.0"
+    },
+    "typo3/neos-googleanalytics": {
+        "replacement": "neos/googleanalytics",
+        "version": "~2.0.0"
+    },
+    "flowpack/behat": {
+        "replacement": "neos/behat",
+        "version": "~3.0.0"
+    },
+    "typo3/buildessentials": {
+        "replacement": "neos/buildessentials",
+        "version": "~4.0.0"
+    },
+    "neos/neos-development-collection": {
+        "replacement": "neos/neos-development-collection",
+        "version": "3.0.x-dev"
+    },
+    "neos/flow-development-collection": {
+        "replacement": "neos/flow-development-collection",
+        "version": "4.0.x-dev"
+    }
+}
