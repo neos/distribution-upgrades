@@ -113,9 +113,9 @@ foreach (['flow', 'flow.bat', 'Web/index.php'] as $frontControllerFile) {
     }
     $replacementCount = 0;
     $frontControllerContent = file_get_contents($absoluteFrontControllerPath);
-    $frontControllerContent = str_replace('TYPO3', 'Neos', $frontControllerContent, $count);
-    $replacementCount += $count;
     $frontControllerContent = str_replace('Framework/TYPO3.Flow/Classes/TYPO3/Flow/Core', 'Framework/Neos.Flow/Classes/Core', $frontControllerContent, $count);
+    $replacementCount += $count;
+    $frontControllerContent = str_replace('TYPO3', 'Neos', $frontControllerContent, $count);
     $replacementCount += $count;
 
     if ($replacementCount > 0) {
