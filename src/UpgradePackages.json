@@ -3,7 +3,15 @@
         "replacement": "neos/neos",
         "version": "~3.0.0"
     },
+    "neos/neos": {
+        "replacement": "neos/neos",
+        "version": "~3.0.0"
+    },
     "typo3/typoscript": {
+        "replacement": "neos/fusion",
+        "version": "~3.0.0"
+    },
+    "neos/fusion": {
         "replacement": "neos/fusion",
         "version": "~3.0.0"
     },
@@ -11,7 +19,15 @@
         "replacement": "neos/content-repository",
         "version": "~3.0.0"
     },
+    "neos/content-repository": {
+        "replacement": "neos/content-repository",
+        "version": "~3.0.0"
+    },
     "typo3/media": {
+        "replacement": "neos/media",
+        "version": "~3.0.0"
+    },
+    "neos/media": {
         "replacement": "neos/media",
         "version": "~3.0.0"
     },
@@ -19,7 +35,15 @@
         "replacement": "neos/nodetypes",
         "version": "~3.0.0"
     },
+    "neos/nodetypes": {
+        "replacement": "neos/nodetypes",
+        "version": "~3.0.0"
+    },
     "typo3/neos-kickstarter": {
+        "replacement": "neos/site-kickstarter",
+        "version": "~3.0.0"
+    },
+    "neos/site-kickstarter": {
         "replacement": "neos/site-kickstarter",
         "version": "~3.0.0"
     },
@@ -27,7 +51,15 @@
         "replacement": "neos/flow",
         "version": "~4.0.0"
     },
+    "neos/flow": {
+        "replacement": "neos/flow",
+        "version": "~4.0.0"
+    },
     "typo3/fluid": {
+        "replacement": "neos/fluid-adaptor",
+        "version": "~4.0.0"
+    },
+    "neos/fluid-adaptor": {
         "replacement": "neos/fluid-adaptor",
         "version": "~4.0.0"
     },
@@ -35,7 +67,15 @@
         "replacement": "neos/eel",
         "version": "~4.0.0"
     },
+    "neos/eel": {
+        "replacement": "neos/eel",
+        "version": "~4.0.0"
+    },
     "typo3/party": {
+        "replacement": "neos/party",
+        "version": "~4.0.0"
+    },
+    "neos/party": {
         "replacement": "neos/party",
         "version": "~4.0.0"
     },
@@ -43,7 +83,15 @@
         "replacement": "neos/seo",
         "version": "~2.0.0"
     },
+    "neos/seo": {
+        "replacement": "neos/seo",
+        "version": "~2.0.0"
+    },
     "typo3/form": {
+        "replacement": "neos/form",
+        "version": "~3.0.0"
+    },
+    "neos/form": {
         "replacement": "neos/form",
         "version": "~3.0.0"
     },
@@ -51,7 +99,15 @@
         "replacement": "neos/imagine",
         "version": "~3.0.0"
     },
+    "neos/imagine": {
+        "replacement": "neos/imagine",
+        "version": "~3.0.0"
+    },
     "typo3/twitter-bootstrap": {
+        "replacement": "neos/twitter-bootstrap",
+        "version": "~3.0.0"
+    },
+    "neos/twitter-bootstrap": {
         "replacement": "neos/twitter-bootstrap",
         "version": "~3.0.0"
     },
@@ -59,7 +115,15 @@
         "replacement": "neos/setup",
         "version": "~4.0.0"
     },
+    "neos/setup": {
+        "replacement": "neos/setup",
+        "version": "~4.0.0"
+    },
     "typo3/kickstart": {
+        "replacement": "neos/kickstarter",
+        "version": "~4.0.0"
+    },
+    "neos/kickstarter": {
         "replacement": "neos/kickstarter",
         "version": "~4.0.0"
     },
@@ -67,7 +131,15 @@
         "replacement": "neos/swiftmailer",
         "version": "~6.0.0"
     },
+    "neos/swiftmailer": {
+        "replacement": "neos/swiftmailer",
+        "version": "~6.0.0"
+    },
     "typo3/typo3cr-search": {
+        "replacement": "neos/content-repository-search",
+        "version": "~2.0.0"
+    },
+    "neos/content-repository-search": {
         "replacement": "neos/content-repository-search",
         "version": "~2.0.0"
     },
@@ -75,11 +147,23 @@
         "replacement": "neos/googleanalytics",
         "version": "~2.0.0"
     },
+    "neos/googleanalytics": {
+        "replacement": "neos/googleanalytics",
+        "version": "~2.0.0"
+    },
     "flowpack/behat": {
         "replacement": "neos/behat",
         "version": "~3.0.0"
     },
+    "neos/behat": {
+        "replacement": "neos/behat",
+        "version": "~3.0.0"
+    },
     "typo3/buildessentials": {
+        "replacement": "neos/buildessentials",
+        "version": "~4.0.0"
+    },
+    "neos/buildessentials": {
         "replacement": "neos/buildessentials",
         "version": "~4.0.0"
     },
