@@ -174,5 +174,13 @@
     "neos/flow-development-collection": {
         "replacement": "neos/flow-development-collection",
         "version": "4.0.x-dev"
+    },
+    "neos/redirecthandler-neosadapter": {
+        "replacement": "neos/redirecthandler-neosadapter",
+        "version": "~2.0"
+    },
+    "neos/redirecthandler-databasestorage": {
+        "replacement": "neos/redirecthandler-databasestorage",
+        "version": "~2.0"
     }
 }

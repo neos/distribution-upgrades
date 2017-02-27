@@ -8,3 +8,14 @@ distribution upgrade helper in the future.
 
 ## Build
  The `build` folder contains a script to create a phar file containing the updater.
+ If you change the content of `src/UpgradePackages.json`, you will need to rebuild the phar.
+ 
+## Usage
+Execute the `DistributionUpgrader.phar` and point it towards the Neos distribution you
+want to upgrade. Example:
+```bash
+build/DistributionUpgrader.phar /path/to/your/Neos/distribution
+```
+After running this, you'll need to run `composer update` to install the new Neos 3.0 packages.
+Hint: Only packages in the Neos or Flowpack namespace are modified. If you use any other
+Neos packages, you will need to replace them manually with versions compatible to 3.0.
