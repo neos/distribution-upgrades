@@ -88,9 +88,9 @@ $yamlFiles = array_map(function ($element) {
 foreach ($yamlFiles as $filePath) {
     $replacementCount = 0;
     $yamlContent = file_get_contents($filePath);
-    $yamlContent = str_replace('TYPO3', 'Neos', $yamlContent, $count);
-    $replacementCount += $count;
     $yamlContent = str_replace('TYPO3CR', 'ContentRepository', $yamlContent, $count);
+    $replacementCount += $count;
+    $yamlContent = str_replace('TYPO3', 'Neos', $yamlContent, $count);
     $replacementCount += $count;
     $yamlContent = str_replace('TypoScript', 'Fusion', $yamlContent, $count);
     $replacementCount += $count;
